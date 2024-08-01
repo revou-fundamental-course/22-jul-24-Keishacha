@@ -4,8 +4,149 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css\script.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/bulb.css' rel='stylesheet'>
 </head>
 <body>
-    
+    <nav>
+        <header class="nav-header">
+            <p class="logo-icon"></p>
+        </header>
+
+        <section class="nav-section">
+            <a href="" class="right-section">Home</a>
+            <a href="" class="right-section">Our Packages</a>
+            <a href="" class="right-section">Call us</a>
+        </section>
+    </nav>
+    <div class="nav-underline"></div>
+    <main>
+        <article class="main-article">
+            <h2>Your Trusted Travel Agent's</h2>
+            <p>Your happiness is our happiness</p>
+        </article>
+
+        <section class="main-section">
+            <article class="nav-section-article">
+                <div class="main-banner-container">
+                    <div class="main-banner banner-1"></div>
+                    <div class="main-banner banner-2"></div>
+                    <div class="main-banner banner-3"></div>
+                </div>
+                <div class="dunno">
+                    <p>"Liburan menjadi menyenangkan bersama Travel Agentku."</p>
+                    <div class="circle-container">
+                        <p class="circle-logo"><i class="fa-solid fa-user"></i></p>
+                        <div class="desc-circle">
+                            <p>Lorem Ipsum</p>
+                            <p>Ibu Rumah Tangga</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="underline"></p>
+                <p class="under-underline">Use this space to provide users with more information about your offer. Consider it a follow-up to your headline and explain the benefits of your service or product</p>
+                <div class="circle-container">
+                    <p class="circle-logo"><i class="fa-solid fa-1"></i></p>
+                    <div class="desc-circle">
+                        <p>Your first feature, written in the form of a benefit statement.</p>
+                    </div>
+                </div>
+                <div class="circle-container">
+                    <p class="circle-logo"><i class="fa-solid fa-2"></i></p>
+                    <div class="desc-circle">
+                        <p>Your second feature, written in the form of a benefit statement.</p>
+                    </div>
+                </div>
+                <div class="circle-container">
+                    <p class="circle-logo"><i class="fa-solid fa-3"></i></p>
+                    <div class="desc-circle">
+                        <p>Your third feature, written in the form of a benefit statement.</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="nav-section-form">
+                <div class="main-form">
+                    <h4>Contact Us</h4>
+                    <p>Sales akan menghubungi anda 1x24 Jam setelah data kami terima.</p>
+
+                    <form action="" class="form" onsubmit="formValidation(); return false;">
+                        <label for="">Your Name:</label>
+                        <input type="text" placeholder="First and Last name" id="input-name">
+                        <label for="">Email Address:</label>
+                        <input type="text" placeholder="example@gmail.com" id="input-email">
+                        <label for="">What your Hobby?</label>
+                        <select name="" id="">
+                            <option value="">Reading a book</option>
+                            <option value="">Dancing</option>
+                        </select>
+                    </form>
+                    <button type="submit" class="btn-send" onclick="formValidation()">Send</button>
+                </div>
+            </article>
+        </section>
+        <p class="package-section">Our Packages</p>
+        
+        <section class="features-section" id="our-packages-section">
+            <div class="feature">
+                <p class="circle-logo"><i class="gg-bulb"></i></p>
+                <div class="under-feature">
+                    <p>Bali</p>
+                    <p>Travel dan wisata di Bali. kunjungi cagar budaya dan kuliner yang menarik</p>
+                </div>
+            </div>
+            <div class="feature">
+                <p class="circle-logo"><i class="gg-bulb"></i></p>
+                <div class="under-feature">
+                    <p>Japan</p>
+                    <p>Travel dan wisata di Bali. kunjungi cagar budaya dan kuliner yang menarik</p>
+                </div>
+            </div>
+            <div class="feature">
+                <p class="circle-logo"><i class="gg-bulb"></i></p>
+                <div class="under-feature">
+                    <p>Singapore</p>
+                    <p>Travel dan wisata di Bali. kunjungi cagar budaya dan kuliner yang menarik</p>
+                </div>
+            </div>
+            </section>
+            <p class="underline2"></p>
+            <section class="features-section">
+            <div class="feature">
+                <p class="circle-logo"><i class="gg-bulb"></i></p>
+                <div class="under-feature">
+                    <p>Bandung</p>
+                    <p>Travel dan wisata di Bali. kunjungi cagar budaya dan kuliner yang menarik</p>
+                </div>
+            </div>
+            <div class="feature">
+                <p class="circle-logo"><i class="gg-bulb"></i></p>
+                <div class="under-feature">
+                    <p>Surabaya</p>
+                    <p>Travel dan wisata di Bali. kunjungi cagar budaya dan kuliner yang menarik</p>
+                </div>
+            </div>
+            <div class="feature">
+                <p class="circle-logo"><i class="gg-bulb"></i></p>
+                <div class="under-feature">
+                    <p>Thread Feature</p>
+                    <p>Travel dan wisata di Bali. kunjungi cagar budaya dan kuliner yang menarik</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-underline"></div>
+        <article>
+            <div class="footer-wrapper">
+                <h1>Your Closing Argument Headline</h1>
+                <p>Suspendisse egestas rhoncus urna in bibendum. Donec urna neque, euismod sed justo quis, convallis tincidunt risus. Phasellus fringilla odio vel erat fringilla, </p>
+            </div>
+            <button class="footer-button">Call to action</button>
+        </article>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
